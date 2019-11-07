@@ -1,5 +1,11 @@
 # Facebook_Messages-A_Sentiment_Analysis
-Analysis on the messages between me and a long time friend. 
+
+Analysis on the FACEBOOK messages between me and a friend. 
+Data was sourced from official requested data. 
+
+Note: FACEBOOK's messages.html files don't have a table tag, which made it less enjoyable to preprocess. 
+
+These results should be reproducable. 
 
 ## Outputs:
 
