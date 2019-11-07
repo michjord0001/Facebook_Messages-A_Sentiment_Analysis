@@ -103,7 +103,7 @@ def main(filepath):
             labels = 'Positive', 'Negative'
             sizes = [len(pos_comments), len(neg_comments)]
             explode = (0.02, 0.02)  # Seperate slice from chart, example = 0.1
-            colors = ['#ff9999','#99ff99']
+            colors = ['#99ff99','#ff9999']
             fig1, ax1 = plt.subplots()
             ax1.pie(sizes, explode=explode, labels=labels, colors=colors, autopct='%1.0f%%', startangle=90, pctdistance=0.85)
             ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
