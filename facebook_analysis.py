@@ -102,7 +102,7 @@ def main(filepath):
             # Plot pie chart
             labels = 'Positive', 'Negative'
             sizes = [len(pos_comments), len(neg_comments)]
-            explode = (0.02, 0.02)  # Seperate slice from chart, example = 0.1
+            explode = (0, 0)  # Seperate slice from chart, example = 0.1
             colors = ['#99ff99','#ff9999']
             fig1, ax1 = plt.subplots()
             ax1.pie(sizes, explode=explode, labels=labels, colors=colors, autopct='%1.0f%%', startangle=90, pctdistance=0.85)
